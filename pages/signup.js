@@ -74,6 +74,7 @@ const Signup = () => {
         progress: undefined,
       });
     }
+    setLoading(false)
   };
 
   return (
