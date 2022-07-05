@@ -18,7 +18,7 @@ const handler = async (req, res) => {
       await u.save();
       res.status(200).json({ success: true, u });
     }else{
-      res.status(400).json({ error: "User already exist!" });
+      res.status(400).json({ error: "User already exist, please login!" });
     }
   } else {
     res.status(400).json({ error: "This method is not allowed" });
