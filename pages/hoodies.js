@@ -31,7 +31,6 @@ const Hoodies = ({ products }) => {
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4 justify-center">
-            {Object.keys(products).length === 0 && <p>Sorry all the hoodies are currently out of stock. New stock coming soon. Stay Tuned!</p> }
             {Object.keys(products).map((item) => {
               return (
                   <Link passHref={true} key={products[item]._id} href={`/product/${products[item].slug}`}>
