@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html
+ {
+  overflow-x: hidden;
+}
+
+.sideCart {
+  position: fixed;
+  z-index: 10;
+}
+/* .navBar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: white;
+} */
+
+.noItems {
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
