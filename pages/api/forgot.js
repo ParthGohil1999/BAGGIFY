@@ -31,7 +31,7 @@ const handler = async (req, res) => {
      To reset your password, please follow the link :
      <br/><br/>
 
-     <a href="http://localhost:3000/forgot?token=${token}">Click here to reset your password</a>
+     <a href="https://baggify.netlify.app/forgot?token=${token}">Click here to reset your password</a>
 
      <br/><br/>
 
